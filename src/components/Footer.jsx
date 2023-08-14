@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <div className="bg-orange-200 min-h-20 py-4 px-2 flex flex-col justify-around ">
+    <div className="bg-gradient-to-b from-pink-200 to-yellow-500 min-h-20 py-4 px-2 flex flex-col justify-around ">
       <p>Phylocare is a Ayurveda company headquartered in Delhi</p>
       <p>Contact us</p>
       <p>
