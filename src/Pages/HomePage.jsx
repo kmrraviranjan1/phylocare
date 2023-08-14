@@ -4,11 +4,9 @@ import HomePageMain from "../components/homepage/HomePageMain"
 
 const HomePage = () => {
   return (
-    <div className="h-screen flex flex-col justify-around">
+    <div className="">
         <Navbar />
-    
         <HomePageMain/>
-    
         <Footer />
     </div>
   )
