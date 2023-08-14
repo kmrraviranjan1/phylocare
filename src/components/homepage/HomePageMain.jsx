@@ -2,15 +2,15 @@ import React from "react";
 
 const HomePageMain = () => {
   return (
-    <div className="p-2">
+    <div className="p-2 px-4 bg-gradient-to-b from-pink-100 to-yellow-100">
       <main>
         <article>
           Phylocare private limited is a pure Ayurveda company which provides
           pure and natural products.
         </article>
         <article>
-          Phylocare ayurvedic medicine can truly enhance the quality of your life healthy
-          and happier.
+          Phylocare ayurvedic medicine can truly enhance the quality of your life and leads to healthy
+          and happier day.
         </article>
       </main>
       <br />
