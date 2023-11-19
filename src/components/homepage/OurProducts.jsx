@@ -4,7 +4,7 @@ import ProductCard from '../common/ProductCard';
 
 const OurProducts = () => {   
   return (
-    <div>
+    <div className='grid grid-cols-2 gap-4 md:grid-cols-4'>
         {productList.map((product)=><ProductCard key={product.id} product={product}/>)}
     </div>
   )
