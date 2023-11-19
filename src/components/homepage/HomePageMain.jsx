@@ -1,5 +1,6 @@
 import React from "react";
 import hero from "../../assets/heroImage.jpg";
+import OurProducts from "./OurProducts";
 const HomePageMain = () => {
   return (
     <div className="bg-gradient-to-b from-pink-100 to-yellow-100">
@@ -33,16 +34,7 @@ const HomePageMain = () => {
       <div>
         <h4 id='our_products' className=" underline text-lg">Our range of Products :-</h4>
         <br />
-        <ul className="list-disc list-inside">
-          <li>Phylocare Leffi Hair Oil</li>
-          <li>Phylocare Amla Shampoo</li>
-          <li>Phylocare Keratin & Argan Pro Hair Conditioner</li>
-          <li>Skech Churan</li>
-          <li>Phylocare Mahabhangraj Tail</li>
-          <li>Phylogesic Pain Killer Oil</li>
-          <li>Phylogesic Pain killer Tablet</li>
-          <li>...and many more ayurvedic range products</li>
-        </ul>
+       <OurProducts/>
       </div>
       <br />
       <p>
