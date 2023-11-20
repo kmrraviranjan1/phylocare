@@ -11,12 +11,13 @@ const HomePageMain = () => {
             <span className="text-amber-500">PHYLOCARE</span>
           </h1>
           <p className="mt-5 text-center text-3xl text-stone-950 ">
-          Phylocare private limited is a pure Ayurveda company which provides
-          pure and natural products.
+          {/* Phylocare private limited is a pure Ayurveda company which provides
+          pure and natural products. */}
+          Truely Enhance The Quality Of Life & makes it Healthier And Happier.
           </p>
           <a
             className="mt-8 px-12 py-3 bg-gradient-to-r from-amber-500 to-red-600 hover:from-amber-600 hover:to-red-700 text-xl text-white/70 font-semibold drop-shadow-lg rounded-full"
-            href="#our_products"
+            href="#products"
           >
             Explore Products
           </a>
@@ -32,7 +33,7 @@ const HomePageMain = () => {
       </main>
       <br />
       <div>
-        <h4 id='our_products' className=" underline text-lg">Our range of Products :-</h4>
+        <h4 id='products' className=" underline text-lg">Our range of Products :-</h4>
         <br />
        <OurProducts/>
       </div>
