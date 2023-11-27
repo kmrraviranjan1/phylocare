@@ -8,10 +8,10 @@ const ProductDetailsPage = () => {
   if (!product) return <>We don't need you</>;
   const { name, image } = product;
   return (
-    <div className="flex flex-row">
+    <div className="flex flex-col md:flex-row p-2">
       <img src={image} alt={name} className="flex-1 h-96 w-full object-contain" />
       <div className="flex-1">
-        <p className="text-4xl font-bold tracking-wider text-slate-600">{name}</p>
+        <p className="text-2xl text-center md:text-4xl font-bold tracking-wider text-slate-600">{name}</p>
       </div>
     </div>
   );
